@@ -193,7 +193,14 @@
 
         <div class="content has-text-justified">
           <p>
-            coming soon
+            There exists a fundamental trade-off between scale and performance in parameter generation, which significantly limits its practical applications. 
+            Specifically, P-diff flattens parameters into one-dimensional vectors, leading to out-of-memory issues when scaling up. 
+            Meanwhile, SANE generates local parameters independently, neglecting the modeling of relationships between these local parameters, 
+            which results in poor performance, especially when generating large-scale parameters.
+
+            Large Language Models (LLMs) have demonstrated exceptional capabilities in context modeling. 
+            They efficiently handle the trade-off between memory consumption and sequence length. 
+            Can we treat network parameters as textual data?
           </p>
         </div>
       </div>

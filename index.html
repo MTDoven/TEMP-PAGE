@@ -302,48 +302,31 @@
 
 
 
-    <center><h2 class="title">Large-Scale Parameter Generation</h2></center>
-    <p>&nbsp;</p>
-    <div class="item">
-      <img src="figures/compare.png" alt="" style="width:60%; height:auto; display:block; margin:auto;">
-      <p style="text-align: left; width:65%; height:auto; display:block; margin:auto; font-weight: bold;">
-        Our approach can synthesize many popular vision and language parameters, such as ConvNeXt-L and LoRA parameters of LLaMA-7B,
-        with a maximum parameter count of approximately 200M, which is much larger than previous works.
-      </p>
-    </div>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+<!-- Paper unseen tasks -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Text-Driven Parameter Generation</h2>
+        
+        <!-- Image container with caption -->
+        <div class="image-container" style="margin-top: 2rem; margin-bottom: 2rem;">
+          <img src="figures/example.png" alt="pipeline of rpg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <p class="caption" style="margin-top: 1rem; font-size: 0.9em; color: #666; text-align: center;">
+            <strong>Figure 6:</strong> coming soon
+          </p>
+        </div>
 
-    <center><h2 class="title">RPG’s Potential in Unseen Tasks</h2></center>
-    <p>&nbsp;</p>
-    <div class="item">
-      <img src="figures/unseentask.png" alt="" style="width:70%; height:auto; display:block; margin:auto;">
-      <p style="text-align: left; width:65%; height:auto; display:block; margin:auto; font-weight: bold;">
-        We mainly investigate whether our approach has the ability to generate models to tackle unseen tasks.
-        Notably, RPG yields commendable performance in these unseen tasks, even without being trained on the specific unseen embeddings.
-        That demonstrates the strong practicality and potential of our approach in generating models under unseen tasks.
-        We illustrate the parameters of original and generated models in seen and unseen embeddings in the figure above.
-      </p>
+        <div class="content has-text-justified">
+          <p>
+            coming soon
+          </p>
+        </div>
+      </div>
     </div>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-
-    <center><h2 class="title">Application Example</h2></center>
-    <p>&nbsp;</p>
-    <div class="item">
-      <img src="figures/example.png" alt="" style="width:60%; height:auto; display:block; margin:auto;">
-      <p style="text-align: left; width:65%; height:auto; display:block; margin:auto; font-weight: bold;">
-        Examples of RPG-generated models guided by binary embeddings from a large language model,
-        demonstrating neural network parameter generation conditioned by natural language. For the first example,
-        we give the LLM a prompt: "Give me a model to select all living things." With the binary embedding provided by the LLM,
-        our RPG then generates a ViT-Tiny classifier.
-      </p>
-    </div>
-
   </div>
 </section>
-<!-- End image carousel -->
-
+<!-- End method -->
 
 
 
